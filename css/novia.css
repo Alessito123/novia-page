@@ -25,7 +25,6 @@ h3:hover{
     font-weight: bolder;
     text-decoration: underline;
     padding-bottom: 10px;
-    cursor: pointer;
    
 }
 
@@ -70,4 +69,8 @@ h3:hover{
     0%{
         transform: scale(.3);
     }
+}
+a{
+    font-size: 1px;
+    color:brown;
 }
