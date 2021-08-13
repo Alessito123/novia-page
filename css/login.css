@@ -1,0 +1,151 @@
+#contenedor {
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  column-gap: 90px;
+  width: 70%;
+  margin: auto;
+  height: 500px;
+}
+
+#contenedor p {
+  border: 1px solid rgb(89, 0, 255);
+}
+
+h2 {
+  color: rgb(15, 91, 231);
+  font-size: 45px;
+  margin-bottom: -10px;
+  padding-top: 50px;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: -15px;
+}
+
+h4 {
+  color: gray;
+}
+
+#imagenes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 40px;
+}
+#yo {
+  width: 160px;
+  border-radius: 10px;
+}
+
+#usuario {
+  width: 160px;
+  border-radius: 10px;
+}
+
+#mas {
+  width: 160px;
+  border-radius: 10px;
+}
+
+#formulario {
+  border: 1px solid #ccc;
+  width: 400px;
+  height: 320px;
+  box-shadow: 2px 2px 5px #999;
+  margin-top: 150px;
+  border-radius: 10px;
+}
+#form1 {
+  margin-top: 13px;
+  margin-left: 20px;
+  border-radius: 5px;
+  width: 85%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 17px;
+  height: 30px;
+  margin-right: 20px;
+  border-color: rgb(194, 192, 192);
+  margin-bottom: 10px;
+}
+
+
+#form2 {
+  margin-left: 20px;
+  border-radius: 5px;
+  width: 85%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 17px;
+  height: 30px;
+  margin-right: 20px;
+  border-color: rgb(194, 192, 192);
+  margin-bottom: 15px;
+}
+
+#entrar {
+  width: 90%;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#entrar:hover{
+    cursor: pointer;
+    background-color: #176ad6;
+}
+a {
+  text-decoration: none;
+  color: #1877f2;
+  margin-left: 120px;
+}
+a:hover{
+    text-decoration: underline;
+}
+#linea {
+  width: 93%;
+  margin-bottom: 30px;
+}
+
+#boton {
+  width: 50%;
+  color: white;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 110px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+#boton:hover{
+    cursor: pointer;
+    background-color: #389924;
+}
+
+#texto{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+#texto2{
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+#link{
+    margin-top: 100px;
+    margin-left: 300px;
+}

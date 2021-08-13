@@ -1,0 +1,93 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 22, 50, 1) 0%,
+    rgba(9, 118, 121, 1) 45%,
+    rgba(0, 234, 255, 1) 100%
+  );
+  font-family: "PT Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  margin-top: 5%;
+}
+
+h3 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+div {
+  border-radius: 30px;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#p1 {
+  padding-left: 28px;
+  padding-top: 40px;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#a1 {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 28px;
+}
+#a1:hover {
+  color: gray;
+}
+
+#p2 {
+  padding-left: 28px;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+#img1 {
+  width: 90%;
+  padding-left: 5%;
+  padding-bottom: 50px;
+}
+
+#a2 {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 28px;
+}
+
+#a2:hover {
+  color: gray;
+}
+
+#p3 {
+  padding-left: 28px;
+  font-size: 15px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+
+#img2 {
+  width: 90%;
+  padding-left: 5%;
+  padding-bottom: 50px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+#link{
+  color: white;
+}
