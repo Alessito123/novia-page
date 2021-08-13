@@ -5,6 +5,20 @@ h3{
     text-align: center;
     font-size: 100px;
 }
+@media screen and(max-width:414px) {
+    h3{
+        font-size: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media screen and(max-width:425px) {
+    h3{
+        font-size: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
 
 h3:hover{
     color: rgb(255, 1, 1);
