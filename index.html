@@ -1,35 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Novia</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="css/novia.css">
-    <link rel="icon" href="Imgenes/photo_2021-05-04_00-54-15.jpg">
-    <script>
-        function accionParaCuandoEllaDigaQueSi(){
-            alert('ahora ya somos novios <3');
-        }
+<html lang="es">
 
-        function mueveElBoton(){
-            width = window.innerWidth;
-            height = window.innerHeight;
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hatun-Acceso al sitema</title>
+        <link rel="icon" href="img/logohatunico.ico">
+        <link rel="stylesheet" href="css/pagina.css">
+    </head>
 
-            newWidth = (Math.random() * width);
-            newHeight = (Math.random() * height);
+    <body>
+        <div class="header">
+            <img src="img/logohatun.png" alt="Logo de la empresa" id="logo">
+            <div class="fecha">
+                <span id="Fecha" class="datos">Fecha: 16/08/2021</span>
+                <span id="Hora" class="datos"> | 8:18:41 a.m. | </span>
+            </div>
+        </div>
 
-            document.getElementById('btnNo').style.position = "absolute";
-            document.getElementById('btnNo').style.left = newWidth + "px";
-            document.getElementById('btnNo').style.top = newHeight + "px";
-        }
-    </script>
-</head>
-<body style="background-image: url(Imgenes/amor.jpg);">
-    <h3>¿Quieres ser mi novia?</h3>
-    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnSi" value="Si" />
-    <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No" /> <br>
-    <a href="profe.html"> nicolas</a> <br>
-    <a href="Flogin.html">facebook</a>
-</body>
+        <div class="fondo" style="background-image: url(/img/fondo.jpg);"> <br>
+            <br>
+            <div class="contenido">
+                <div class="frase">
+                    <div class="conjunto">
+                        <img src="img/logohatun.png" alt="" id="logoGrande">
+                        <h1 id="letra">HATUN</h1> <br>
+                    </div>
+                    <div class="refran">
+                        <h2> <span class="comillas">"</span> Para vivir mejor
+                            <span class="comillas">"</span> </h2>
+                    </div>
+                </div>
+                <div class="form">
+                    <form action="">
+                        <p class="login" id="us">Usuario</p>
+                        <input type="text" class="texto" autofocus id="tex1">
+                        <p class="login" id="con">Contraseña</p>
+                        <input type="password" class="texto" id="tex2"> <br>
+                        <input type="button" id="boton" value="HATUNEATE">
+                    </form>
+                </div>
+                
+            </div>
+            <div class="info">
+                <p>
+                    <strong>Soporte:</strong>
+                    sic@hatunsol.com.pe -
+                    <strong>Cel.:</strong>
+                    988702085
+                </p>
+            </div>
+        </div>
+
+        
+
+        <footer>
+            Copyright © HATUN S.A. Derechos Reservados.
+        </footer>
+    </body>
+
 </html>
