@@ -1,0 +1,80 @@
+.contenedor1{
+  display: grid;
+  grid-template-columns: 0.1fr 1fr;
+}
+
+#logo{
+  width: 170px ;
+  padding-left: 160px;
+  padding-top: 10px;
+  margin-right: -1000px;
+}
+
+.menu_lista {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  margin-right: 100px;
+  margin-left: -90px;
+}
+
+.menu {
+  margin-left: 28%;
+  width: 70%;
+}
+
+.menu_item a {
+  text-decoration: none;
+  color:#2c4964;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+.menu_item a:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+#rojo {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+#negrita{
+    color: red;
+    font-weight: bolder;
+}
+.banner {
+  background-image: url(/Imgenes/fomdo.jpg);
+  margin-top: -20px;
+  height: 700px;
+}
+.banner h2,
+.banner h4 {
+  color: white;
+}
+.banner h2 {
+  padding-top: 150px;
+  font-size: 40px;
+  padding-left: 10%;
+}
+.banner h4 {
+  padding-left: 10%;
+}
+
+#boton{
+    background-color: red;
+    color: white;
+    margin-left: 10%;
+    width: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius:20px ;
+    border: none;
+}
+
+#boton:hover{
+    cursor:pointer;
+    background-color: rgb(11, 160, 219)
+}
