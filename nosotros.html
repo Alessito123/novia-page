@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="css/proyecto2.css">
+        <link rel="stylesheet" href="css/normalise.css">
+        <link rel="icon" href="Imgenes/logoK.ico">
+        <link rel="stylesheet" href="css/kuyana.css">
+
+    </head>
+
+    <body>
+        <div class="separar">
+            <div>
+                <header class="sombrita">
+                    <img src="Imgenes/Kuyana.jpg" alt="logo del elenco"
+                        class="logito tmr">
+                    <h1 class="titulo">Kuyana Tusuy - Elenco Artístico</h1>
+                </header>
+            </div>
+
+            <div class="nav-bg">
+
+                <nav class="navegación contenedor">
+                    <a href="kuyana.html">Inicio</a>
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="#">Eventos</a>
+                    <a href="Conovatoria.html">Convocatoria</a>
+                </nav>
+
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="Imgenes/Pacasmayo.jpg" alt="Pacasmayo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/complejo.jpg" alt="complejo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/Chimbote.jpg" alt="Chimbote">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/Cartavio.jpg" alt="Cartavio">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/Limoncarro.jpg" alt="Limoncarro">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/Ciudad de Dios.jpg" alt="Ciudad">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/pacasmayo2.jfif" alt="pacasmayo2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/pose.jfif" alt="pose">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/Paijan.jpg" alt="paijan">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="Imgenes/loco.jfif" alt="loco">
+                    </div>
+                </div>
+            </div>
+            <div>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, dolor. Alias, natus quis sapiente soluta tempora quae voluptate repudiandae deserunt delectus consequuntur! Sapiente natus in deserunt, maiores amet minus odio.      
+          </div>
+        </div>
+       
+
+        
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+            var swiper =new Swiper('.swiper-container',{
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides:true,
+            slidesPerView:'auto',
+            coverflowEffect:{
+                rotate:20,
+                stretch:0,
+                depth:200,
+                modifier:1,
+                slideShadows: true,
+            },
+            loop:true,
+            autoplay:{
+                delay:2500,
+                disableOnInteraction:false,
+            },
+          });
+         </script>
+    </body>
+</html>
