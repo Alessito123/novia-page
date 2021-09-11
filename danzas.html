@@ -13,7 +13,9 @@
             rel="stylesheet">
         <link rel="icon" href="Imgenes/logoK.ico">
         <link rel="stylesheet" href="css/kuyana.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+            />
         <script src="js/main.js" defer></script>
     </head>
     <body>
@@ -23,7 +25,7 @@
             <h1>Kuyana Tusuy - Elenco Artístico</h1>
         </header>
 
-        <div class="nav-bg">
+        <div class="nav-bg espacio">
 
             <nav class="navegación contenedor">
                 <a href="kuyana.html">Inicio</a>
@@ -33,43 +35,47 @@
             </nav>
         </div>
 
-         <!-- Player -->
-    <main class="player">
+        <div class="fondo">
+            <!-- Player -->
+        <main class="player">
+            <div class="contenido2">
+            <!-- Title -->
+            <h1 class="title" id="title">Danzas que Practicamos</h1>
 
-        <!-- Title -->
-        <h1 class="title" id="title">Danzas que Practicamos</h1>
+            <!-- Cover -->
+            <img src="Imgenes/Kuyana.jpg" alt="" class="cover" id="cover">
 
-        <!-- Cover -->
-        <img src="Imgenes/Kuyana.jpg" alt="" class="cover" id="cover">
+            <!-- Audio HTML Media elememt -->
+            <audio src="" id="audio"></audio>
 
-        <!-- Audio HTML Media elememt -->
-        <audio src="" id="audio"></audio>
+            <!-- Progress bar -->
+            <div id="progress-container" class="progress-container">
+                <section id="progress" class="progress"></section>
+            </div>
 
-        <!-- Progress bar -->
-        <div id="progress-container" class="progress-container">
-            <section id="progress" class="progress"></section>
-        </div>
+            <!-- Controls -->
+            <section class="controls">
+                <button class="prev">
+                    <i id="prev" class="fas fa-backward"></i>
+                </button>
+                <button class="play">
+                    <i id="play" class="fas fa-play"></i>
+                </button>
+                <button class="next">
+                    <i id="next" class="fas fa-forward"></i>
+                </button>
+            </section>
 
-        <!-- Controls -->
-        <section class="controls">
-            <button class="prev">
-                <i id="prev" class="fas fa-backward"></i>
-            </button>
-            <button class="play">
-                <i id="play" class="fas fa-play"></i>
-            </button>
-            <button class="next">
-                <i id="next" class="fas fa-forward"></i>
-            </button>
-        </section>
-
-        <!-- Song list -->
-        <ul class="songs" id="songs">
-            <!-- <li><a href="#">Song 1</a></li>
+            <!-- Song list -->
+            <ul class="songs" id="songs">
+                <!-- <li><a href="#">Song 1</a></li>
             <li><a class="active" href="#">Song 2</a></li>
             <li><a href="#">Song 3</a></li> -->
-        </ul>
-        <p>Proximamente...</p>
-    </main>
+            </ul>
+            <p>Proximamente...</p>
+        </div>
+        </main>
+        </div>
+
     </body>
 </html>
